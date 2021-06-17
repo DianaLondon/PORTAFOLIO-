@@ -252,7 +252,7 @@ transform: scale(1);
     }
 
     .quien{
-        width: 750px;
+        width: 85%;
     }
 
     #yo{
@@ -271,9 +271,9 @@ transform: scale(1);
 
     .description{
         letter-spacing: 2px;
-        margin-left: 56px;
+        margin-left: 15%;
         margin-right: 0px;
-        margin-top: 45px;
+        margin-top: 1%
     }
     
 
@@ -297,8 +297,8 @@ transform: scale(1);
     }
     
     .icons img{
-        margin-left: 55px;
-        margin-top: 5px;
+        margin-left: 9%;
+        margin-top: 0.1%;
         width:35px;
     }
 

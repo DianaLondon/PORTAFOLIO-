@@ -57,7 +57,7 @@ h1{
     margin-top: 55px;
     margin-left: 15px;
     width: 300px;
-    height: 150px;
+    height: 40%;
 }
 
 
@@ -85,7 +85,7 @@ h1{
     margin-top: 55px;
     margin-left: 15px;
     width: 300px;
-    height: 150px;
+    height: 40%;
 }
 
 
@@ -229,8 +229,8 @@ margin-top: 100px;
     
     .galeria img{
         margin-top: 15px;
-        margin-left: 5px;
-        width: 95px;
+        margin-left: 15%;
+        width: 68%;
         height: 95px;
     }
 
@@ -253,9 +253,10 @@ margin-top: 100px;
 }
 
 .galeria2 img{
+    align-items: center;
     margin-top: 15px;
-    margin-left: 5px;
-    width: 95px;
+    margin-left: 15%;
+    width: 68%;
     height: 95px;
 }
 

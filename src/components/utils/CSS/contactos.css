@@ -63,7 +63,7 @@ clear: both;
 
 /*ESTILOS DEL FORMULARIO*/
  .container{
-    height: 800px;
+    height: 80%;
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #c894f8;
@@ -159,7 +159,7 @@ color: #354355;
     border-radius: 20%;
     width: 200px;
     height: 200px;
-    margin-left:120px;
+    margin-left:15%;
     margin-right: 50px;
 }
 
@@ -221,7 +221,7 @@ color: #354355;
 
  .container{
     margin-top: 59px;
-    height: 710px;
+    height: 80%;
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #c894f8;

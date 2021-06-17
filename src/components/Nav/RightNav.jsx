@@ -13,7 +13,8 @@ const Ul= styled.ul`
     flex-flow:row nowrap;
 
 .Navli {
-    
+    opacity: 0.5;
+    text-align: center;
     padding: 18px 10px;   
     transition: background 0.3s ease 0s; 
 } 

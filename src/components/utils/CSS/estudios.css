@@ -197,7 +197,7 @@
 }
 
 .titu_estudios{
-    margin-bottom: 22px;
+    margin-bottom: 15%;
     text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
     transition: all 0.3s ease 0s;
     position: relative;
@@ -408,8 +408,8 @@ h2{
     }
 
     .titu_estudios{
-        padding-right: 25px;
-        margin-left: 55px;
+        padding-right: 2%;
+        margin-left: 6%;
         font-size: 25px;
     }
 

@@ -1,0 +1,299 @@
+
+/*IMPORTACIÓN DE LAS FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*ESTILOS DE LA SELECCIÓN DE HOME*/
+#home img{
+    margin-top: 75px;
+    margin-left: 90px;
+    justify-content: center;
+    width: 395px;
+    border-radius: 350px;
+    transform: translate3d(0,0,0);
+}
+  
+#home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#18161a, #0a0011);
+    border-bottom: 2px solid rgb(159, 103, 233);
+}
+
+
+
+#home span{
+    background: none;
+    font-size: 120pt;
+    font-weight: bold;
+    position:relative;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+
+#home span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+
+#home span::after{
+    content: var(--l);
+    position: absolute;
+    top:80%;
+    left:0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+}
+
+#home span:hover{
+    filter:contrast(250%);
+}
+
+#home span:nth-child(1){
+    color:#e7e7e7;
+        text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s;
+}
+
+#home span:nth-child(2){
+    color:#b28fdb;
+        text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s;
+}
+
+#home span:nth-child(3){
+    color:#e7e7e7;
+        text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s
+}
+
+#home span:nth-child(4){
+    color:#b28fdb;
+    text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s
+}
+
+#home span:nth-child(5){
+    color:#e7e7e7;
+    text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s
+}
+
+/*ESTILOS DEL TEXTO*/
+.subtitule{
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 380px;
+    font-size: 85px;
+    display: inline-block;
+    color: white;
+    text-shadow: .03em .03em 0 rgb(144, 13, 195);
+    }
+    h1:after {
+      content: attr(data-shadow);
+      position: absolute;
+      top: .06em; left: .06em;
+      z-index: -1;
+      text-shadow: none;
+      background-image:
+        linear-gradient(
+          45deg,
+          transparent 45%,
+          hsla(48,20%,90%,1) 45%,
+          hsla(48,20%,90%,1) 55%,
+          transparent 0
+          );
+      background-size: .05em .05em;
+      -webkit-text-fill-color: transparent;
+    
+      animation: shad-anim 15s linear infinite;
+      }
+/*ANIMACIONES DE LOS TITULOS*/
+.developer{animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) 1s both}
+.name{animation:tracking-in-expand-fwd-top 1s ease-in both}
+  /*PROPIEDADES DE ANIMACIÓN*/
+  
+  @keyframes shad-anim {
+    0% {background-position: 0 0}
+    0% {background-position: 100% -100%}
+    }
+
+h1 {
+  
+  margin-left: 250px;
+  display: inline-block;
+  color: white;
+  font-size: 45px; 
+  text-shadow: .03em .03em 0 rgb(144, 13, 195);
+  }
+  h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+/*ESTILOS DE BURBUJAS*/
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+    position:absolute;
+    bottom: -150;
+    animation: burbujas 3s linear infinite;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 60px;
+    height: 60px;
+    left: 15%;
+    animation-duration: 6s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+}
+
+.burbuja:nth-child(6){
+    width: 60px;
+    height: 60px;
+    left: 58%;
+    animation-duration: 4s;
+}
+
+.burbuja:nth-child(7){
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    animation-duration: 4s;
+}
+
+.burbuja:nth-child(8){
+    width: 100px;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+}
+
+
+
+/*PROPIEDADES DE LAS ANIMACIONES*/
+@keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+
+@keyframes burbujas {
+      0%{
+          bottom: 0;
+          opacity: 0;
+      }
+      30%{
+          transform: translateX(30px);
+      }
+      50%{
+          opacity: .4;
+      }
+      100%{
+          bottom: 100vh;
+          opacity: 0;
+      }
+  }
+  
+
+
+  
+/*RESPONSIVE DE LA PAGINA DEL HOME DESDE LOS 768px hasta 1024px*/
+  @media screen and (min-width:768px) and (max-width:1024px)  {
+    #home img{
+        margin-top: 120px;
+        margin-left: 90px;
+        justify-content: center;
+        width: 325px;
+        border-radius: 350px;
+        transform: translate3d(0,0,0);
+    }
+
+    #home span{
+        background: none;
+        font-size: 80pt;
+        font-weight: bold;
+        position:relative;
+        font-family: "Fredoka One";
+        cursor: pointer;
+        transition: all 300ms;
+    
+    }
+
+    .logo{
+        font-size: 35px;
+    }
+
+    .subtitule{
+        font-size: 75px;
+        margin-bottom: 25px;
+    }
+
+}

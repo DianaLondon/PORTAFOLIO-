@@ -1,0 +1,430 @@
+
+/*IMPORTACIÓN DE LAS FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Slab:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
+/*ESTILOS DE LA SECCIÓN DE ESTUDIOS*/
+#studys{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#18161a, #0a0011);
+    border-bottom: 2px solid rgb(159, 103, 233);
+
+}
+
+/*ESTILOS DEL CONTENEDOR DE ESTUDIOS*/
+.estudios{
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+    background:none;
+    width: 35%;
+    height: auto;
+}
+
+/*ESTILOS DEL CONTENEDOR DE CONOCIMIENTOS*/
+.lenguajes{
+    margin-left: 150px;
+    background:none;
+    width: 65%;
+    height: auto;
+}
+/*ESTILOS DE LAS CARDS*/
+.card{
+    margin-left: 250px;
+    width: 350px;
+}
+
+.card img{
+    width: 250px;
+}
+
+
+.col-md-4 img{
+   margin-right: 15px;
+   margin-top:30px;
+   width: 113px;
+}
+
+.mb-3{
+    margin-left: 145px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+}
+
+/*ANIMACIÓN*/
+
+.mb-3 {
+	-webkit-animation: shake-horizontal 9.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 9.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+/*PROPIEDAES DE ANIMACIÓN*/
+@-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  
+
+  /*ESTILOS DE LAS CARDS*/
+
+.card-body{
+    
+    background: rgb(196,196,196);
+	border: 1px solid #7604e9;
+	background: rgb(196,196,196);
+	background: linear-gradient(304deg, rgba(196,196,196,0.3934524493391106) 25%, #9b66c0 100%);
+}
+
+.col-md-4{
+	background: rgb(196,196,196);
+	border: 1px solid #7604e9;
+	background: rgb(196,196,196);
+	background: linear-gradient(304deg, rgba(196,196,196,0.3934524493391106) 25%, #9b66c0 100%)
+}
+
+.card-1{
+    width: 250px;
+    margin-left: 52px;
+    margin-right: 100px;
+}
+
+/*ESTILOS DEL TITULO*/
+.titulito{
+    text-align: justify;
+    font-size: 15px;
+}
+
+/*ESTILOS DE IMAGENES DE LAS CARDS*/
+
+.col img{
+    justify-content: center;
+    border-radius: 693px;
+    margin-bottom: 15px;
+    width:90px;
+}
+
+.col-3, .colll img{
+    margin-bottom: 15px;
+    width:390px;
+    margin-left: 15px;
+    width:390px;
+    height:219px;
+}
+.coll img{
+    margin-bottom: 15px;
+    width:390px;
+    margin-left: 15px;
+}
+
+
+/*ESTILOS DE LOS TITULOS*/
+.titu_lengua{
+    border-bottom: 2px solid rgb(159, 103, 233);
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 6.2rem;
+    animation: pulsate 1.5s infinite alternate;  
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.titu_estudios{
+    margin-bottom: 22px;
+    text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    padding-top: 15px;
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+h2{
+    background: none;
+    text-align: center;
+        padding: 15px 0;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: rgb(7, 6, 6);
+        text-shadow: rgb(1 15 140 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        transition: all 0.3s ease 0s;
+}
+
+.letricas Progress{
+    color:black;
+}
+
+#html{
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    color: #080808;
+    font-weight: bold;
+    border: 2px solid #5b0cb4;
+    border-radius: 6px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+/*ESTILOS DEL CONTENEDOR*/
+.lenguajes{
+    padding-top:19px;
+    padding-bottom: 9px;
+    padding-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    color: #080808;
+    font-weight: bold;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #6d13fe,
+    0 0 0.8rem #6d13fe,
+    0 0 2.8rem #4338df,
+    inset 0 0 1.3rem #4338df; 
+    border-radius: 6px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.posterior, .superior{
+    display: flex;
+}
+
+.lenguajes p{
+    margin-left: 50px;
+}
+
+/*ESTILOS DE LAS IMAGENES*/
+#css img{
+    width:70px
+}
+
+#js img{
+    margin-left: 5px;
+    width:60px
+}
+
+#react img{
+    width:70px
+}
+
+#vs img{
+    margin-right: 10px;
+    margin-left: 5px;
+    width:55px
+}
+
+#olu{
+    width: 250px;
+    margin-left: 50px;
+    color:blueviolet;
+}
+
+
+#programas{
+    display:block;
+}
+.parrafoEstudios{
+        margin-right: 35px;
+        padding-right: 50px;
+        font-size: 20px;
+        text-align: justify;
+        color: rgb(20, 20, 20);
+        font-family: 'Roboto Slab', serif;
+    }
+  
+
+/*RESPONSIVE DE LA PAGINA DE ESTUDIOS DESDE LOS 768px hasta 1024px*/
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .card{
+        margin-left: 50px;
+        width: 250px;
+    }
+
+    .card-1{
+        width: 150px;
+        margin-left: 52px;
+        margin-right: 100px;
+    }
+
+    .card img{
+       width: 45px;
+    }
+
+    .card img{
+        width: 15px;
+    }
+    
+    
+    .col-md-4 img{
+       margin-right: 25px;
+       margin-top:30px;
+       width: 80px;
+    }
+    
+    .col img{
+        width: 195px;
+    }
+
+    .colll img{
+        margin-left: 25px;
+        width: 255px;
+        height: 115px;
+    }
+
+    .coll img{
+        width: 185px;
+        height: 115px;
+    }
+    
+    .text p{
+        color: #fff;
+    }
+
+    .lenguajes{
+        padding-top:0px;
+        padding-left: 0px;
+        padding-bottom: 9px;
+        font-size: 30px;
+        text-align: center;
+        width: 56px;
+        color: #080808;
+        font-weight: bold;
+        box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #4b49c0,
+        0 0 0.8rem #4b49c0,
+        0 0 2.8rem #4b49c0,
+        inset 0 0 1.3rem #4b49c0,;
+        border-radius: 6px;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    
+    .lenguajes{
+        margin-left: 0px;
+        width: 25%;
+        height: auto;
+    }
+    
+    .lenguajes img{
+        padding-top: 30px;
+    }
+
+    #css img{
+        width:38px
+    }
+    
+    #js img{
+        width:35px
+    } 
+    
+    #react img{
+        width:38px
+    }
+
+    #vs img{
+        margin-right: 5px;
+        width:30px
+    }
+
+    #olu{
+        width: 110px;
+        margin-left: 40px;
+        color:blueviolet;
+    }
+
+    .titu_estudios{
+        padding-right: 25px;
+        margin-left: 55px;
+        font-size: 25px;
+    }
+
+    .parrafoEstudios{
+        margin-right: 0px;
+        padding-right: 50px;
+        font-size: 15px;
+        text-align: justify;
+        color: rgb(20, 20, 20);
+        font-family: 'Roboto Slab', serif;
+    }
+
+
+
+    
+
+
+}

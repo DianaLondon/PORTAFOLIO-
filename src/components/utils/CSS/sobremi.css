@@ -1,0 +1,329 @@
+/*IMPORTACIÓN DE LAS FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Slab:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+/*ESTILOS DE LA SECCIÓN  SOBRE MÍ*/
+#me{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../IMAGES/wall.jpg');
+    
+}
+
+/*ANIMACIONES DE LA IMAGEN*/
+.quien img{animation:kenburns-left 3s ease-out reverse}
+
+/*ESTILOS DEL CONTENEDOR PADRE*/
+.quien{
+    border-radius: 15%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    box-shadow: 0 0 .5rem #fff,
+              0 0 .5rem #fff,
+              0 0 5rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+              background: -webkit-radial-gradient(#18161a, #0a0011);
+    width: 60%;
+}
+
+/*ESTILOS DEL CONTENEDOR HIJO*/
+.yo{
+    margin-top: 15px;
+    margin-left: 110px;
+    display: flex;
+    width:900px;
+}
+
+
+#yo{
+    margin-top: 59px;
+    height: 350px;
+    border-radius: 500px;
+}
+
+
+/*ESTILOS DE LOS ICONOS*/
+.icons{
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    margin-top: 95px;
+
+}
+
+
+.icons li a{
+    padding: 25px;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 16px;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+} 
+
+
+.icons img{
+    border-color: 2px blueviolet;
+    border-radius: 5px;
+    margin-top: 5px;
+    width:45px;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe; 
+}
+
+.icons img {
+	-webkit-animation: flicker-1 3s linear infinite both;
+	        animation: flicker-1 3s linear infinite both;
+}
+
+
+/*ESTILOS DEL PARRAFO*/
+.parrafoInicial{
+    margin-bottom: 159px;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+}
+
+#nota{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Slab', serif;
+}
+
+.description{
+    letter-spacing: 2px;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 45px;
+}
+
+/*ESTILOS DEL TITULO*/
+.titu_sobre{
+    margin-top: 35px;
+    text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+    transition: all 0.3s ease 0s;
+    margin-left: 590px;
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.titu_sobre::after, .titu_sobre::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    top:1.2em;
+    transform: scale(0);
+    transition: all 0.4s ease-in;
+}
+
+.titu_sobre:hover::after, .titu_sobre:hover::before{
+transform: scale(1);
+}
+
+.titu_sobre::before{
+    left: -140px;
+}
+
+.titu_sobre::after{
+    right: -140px;
+}
+
+
+.libros{
+    display: flex;
+    flex-direction:row ;
+}
+
+#Git{
+    width: 25pxs;
+}
+
+.lista li{
+    margin-left: 25px;
+}
+
+#habilidades {
+    text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+    margin-left: 90px;
+    padding-top: 25px;
+    color:#fff;
+    font-size: 35px;
+    font-family: 'Inconsolata', monospace;
+
+}
+#otra{
+    display: flex;
+}
+
+#otra li{
+    margin-left: 55px;
+}
+
+
+/*PROPIEDADES DE LAS ANIMACIONES*/
+@keyframes kenburns-left{0%{transform:scale(1) translate(0,0);transform-origin:16% 50%}100%{transform:scale(1.25) translate(-20px,15px);transform-origin:left}}
+@-webkit-keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    47.99% {
+      opacity: 1;
+    }
+    48% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    49.01% {
+      opacity: 1;
+    }
+  }
+  @keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    47.99% {
+      opacity: 1;
+    }
+    48% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    49.01% {
+      opacity: 1;
+    }
+  }
+
+
+/*RESPONSIVE DE LA PAGINA SOBRE MÍ DESDE LOS 768px hasta 1024px*/
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    
+    .quien img{
+        justify-content: center;
+        width: 750px;
+        border-radius: 350px;
+    }
+
+    .quien{
+        width: 750px;
+    }
+
+    #yo{
+        margin-left: 15px;
+        margin-top: 59px;
+        height: 210px;
+        border-radius: 500px;
+    }
+
+    .yo{
+        margin-top: 15px;
+        margin-left: 25px;
+        display: flex;
+        width:320px;
+    }
+
+    .description{
+        letter-spacing: 2px;
+        margin-left: 56px;
+        margin-right: 0px;
+        margin-top: 45px;
+    }
+    
+
+    .titu_sobre{
+        font-family: 'IBM Plex Mono', monospace;
+        margin-left: 299px;
+        display: inline-block;
+        position: relative;
+        padding-top: 15px;
+        color:#fff;
+        font-size: 25px;
+    }
+    
+       
+    .parrafoInicial{
+        width: 295px;
+        font-size: 15px;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .icons img{
+        margin-left: 55px;
+        margin-top: 5px;
+        width:35px;
+    }
+
+    .icons{
+        flex-direction: column;
+        display: flex;
+        list-style: none;
+        margin-right: 150px;
+    }
+
+    #habilidades {
+        text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+        margin-left: 45px;
+        padding-top: 25px;
+        color:#fff;
+        font-size: 25px;
+        font-family: 'Inconsolata', monospace;
+    
+    }
+
+    #otra li{
+        margin-left: 25px;
+    }
+
+    
+}
+
+/*FIN DEL RESPONSIVE*/

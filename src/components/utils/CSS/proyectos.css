@@ -1,0 +1,338 @@
+/*IMPORTACIÓN DE LAS FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Slab:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
+/*ESTILOS DE LA SECCIÓN DE PROYECTOS*/
+#projects{
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    background: -webkit-radial-gradient(#18161a, #0a0011);
+}
+
+h1{
+    margin-left: 15px;
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+.parrafito{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 15%;
+    color: #fff;
+}
+
+.parrafito h6{
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*ESTILOS DEL CONTENEDOR DE LA GALERIA*/
+.galeria{
+    border-radius: 50px;
+    margin-bottom: 55px;
+    background-image: url('../IMAGES/wall.jpg');
+    width: 40%;
+    margin-top:50px;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li{
+    margin: 5px;
+}
+
+.galeria img{
+    margin-top: 55px;
+    margin-left: 15px;
+    width: 300px;
+    height: 150px;
+}
+
+
+
+/*ESTILOS DE LA GALERIA 2*/
+.galeria2{
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-bottom: 55px;
+    background-image: url('../IMAGES/wall.jpg');
+    width: 40%;
+    margin-top:50px;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria2 li{
+    margin: 5px;
+}
+
+.galeria2 img{
+    margin-top: 55px;
+    margin-left: 15px;
+    width: 300px;
+    height: 150px;
+}
+
+
+/*ESTILOS DEL MODAL*/
+
+.modal{
+margin-top: 100px;
+  display: none;
+}
+
+.modal:target{
+    animation: movimiento 15s infinite linear alternate;
+    animation: movimiento 9s infinite ease-out alternate;
+    background-image:url('../IMAGES/papper.jpg');
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*PROPIEDADES DE LAS ANIMACIONES*/
+@keyframes movimiento {
+    0% {
+        background-position: bottom left;
+    }
+    
+    30% {
+        background-position: top right;
+    }
+    60% {
+        background-position: top left;
+    }
+    100% {
+        background-position: bottom right;
+    }
+ }
+
+/*ESTILOS DEL TITULO DEL MODAL*/
+.modal h3{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ESTILOS DE LAS IMAGENES*/
+.imagen a{
+    color: white;
+    font-size: 75px;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img{
+    width:850px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid rgb(73, 70, 75);
+    box-sizing: border-box;
+}
+
+/*ESTILOS DE LA X */
+.cerrar{
+    display: block;
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(114, 19, 192);
+    padding: 15px;
+    border-radius: 50%;
+    line-height: 25px;
+
+}
+/*ESTILOS DE LOS TITULOS*/
+#titular{
+    text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    padding-top: 15px;
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 375px;
+
+}
+
+#informacion{
+    margin-left: 250px;
+    margin-right: 250px;
+    color:#fff;
+    font-size: 25px;
+    text-align: justify;
+ 
+}
+
+
+/*RESPONSIVE DE LA PAGINA DE PROYECTOS DESDE LOS 768px hasta 1024px*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .galeria{
+        margin-bottom: 55px;
+        width: 32%;
+        margin-top:50px;
+        list-style: none;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .galeria li{
+        margin: 5px;
+    }
+    
+    .galeria img{
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 95px;
+        height: 95px;
+    }
+
+    /*ESTILOS DE LA GALERIA 2*/
+.galeria2{
+    margin-left: 25px;
+    margin-bottom: 55px;
+    background-color: rgb(29, 90, 92);
+    width: 32%;
+    margin-top:50px;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria2 li{
+    margin: 5px;
+}
+
+.galeria2 img{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 95px;
+    height: 95px;
+}
+
+
+#titular{
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 15px;
+    margin-top: 189px;
+
+}
+
+.modal:target{
+    display: block;
+    position: fixed;
+    background: rgba(214, 179, 243, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+.imagen img{
+    width:550px;
+    max-width: 100%;
+    border: 7px solid rgb(73, 70, 75);
+    box-sizing: border-box;
+}
+
+.imagen{
+    width: 100%;
+    display: flex;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacion{
+    margin-left: 250px;
+    margin-right: 250px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.cerrar{
+    display: block;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(114, 19, 192);
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+
+}
+
+.parrafito{
+    margin-left: 41px;
+    margin-right: 50px;
+}
+
+.parrafito h6{
+    font-size: 15px;
+    border-right: 25px;
+    text-align: justify;
+}
+
+}

@@ -1,0 +1,180 @@
+
+/*ESTILOS DE LA SECCIÓN DE FOOTER*/
+footer {
+    display: flex;
+    background: -webkit-radial-gradient(#18161a, #0a0011);
+    min-height: 8.5rem;
+    min-height: 8.5rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    flex-wrap: wrap;
+}
+
+
+/*ESTILOS DE LOS ICONOS*/
+article.datos-contacto ul li {
+    color:  #c894f8;
+}
+
+article.datos-contacto ul {
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.datos-contacto {
+    display: flex;
+    flex-basis: 20%;
+    flex: 1 0 calc(50% - 1rem);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.725rem;
+}
+
+.datos-contacto li {
+    list-style: none;
+    display: flex;
+    flex-basis: 20%;
+    flex: 1 0 calc(50% - 1rem);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.725rem;
+}
+
+.datos-contacto img{
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe; 
+    margin-right: 29px;
+    background-color:  #c894f8;
+    border-radius: 5%;
+    width: 25px;
+}
+
+.datos-contacto img {
+	-webkit-animation: flicker-1 3s linear infinite both;
+	        animation: flicker-1 3s linear infinite both;
+}
+
+/*PROPIEDADES DE LAS ANIMACIONES*/
+@-webkit-keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    47.99% {
+      opacity: 1;
+    }
+    48% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    49.01% {
+      opacity: 1;
+    }
+  }
+  @keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    47.99% {
+      opacity: 1;
+    }
+    48% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    49.01% {
+      opacity: 1;
+    }
+  }
+
+aside.datos-contacto {
+    justify-content: space-around;
+}
+
+
+aside.datos-contacto ul {
+    display: flex;
+    justify-content: center;
+    flex-basis: 70%;
+}
+
+/*ESTILOS DEL TEXTO DEL FOOTER*/
+footer p.creditos {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    flex-basis: 85%;
+    justify-content: center;
+    color: #c894f8;
+    font-size: 1.2313rem;
+    opacity: 0.6;
+    color: #fbfbfb;
+    flex-basis: 100%;
+    border-radius: 10px;
+}
+
+/*RESPONSIVE DE LA PAGINA DE CONTACTOS DESDE LOS 768px hasta 1024px*/
+@media only screen and (min-width:768px) and (max-width:1024px)  {
+    footer p.creditos {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        flex-basis: 40%;
+        justify-content: center;
+        color: #c894f8;
+        font-size: 1.0313rem;
+        opacity: 0.6;
+        color: #fbfbfb;
+        flex-basis: 100%;
+        border-radius: 10px;
+    }
+
+    article.datos-contacto ul {
+        margin-right: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

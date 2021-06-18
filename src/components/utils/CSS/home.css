@@ -11,15 +11,17 @@
 
 /*ESTILOS DE LA SELECCIÓN DE HOME*/
 #home img{
-    margin-top: 75px;
-    margin-left: 90px;
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
     justify-content: center;
     width: 20%;
-    border-radius: 350px;
+    border-radius: 50%;
     transform: translate3d(0,0,0);
 }
   
 #home{
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

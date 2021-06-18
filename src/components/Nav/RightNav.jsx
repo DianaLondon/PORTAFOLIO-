@@ -13,6 +13,7 @@ const Ul= styled.ul`
     flex-flow:row nowrap;
 
 .Navli {
+    color:#fff;
     opacity: 0.5;
     text-align: center;
     padding: 18px 10px;   

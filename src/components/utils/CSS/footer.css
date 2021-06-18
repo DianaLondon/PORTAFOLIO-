@@ -59,6 +59,7 @@ article.datos-contacto ul {
     background-color:  #c894f8;
     border-radius: 5%;
     width: 25px;
+    flex-direction: initial;
 }
 
 .datos-contacto img {

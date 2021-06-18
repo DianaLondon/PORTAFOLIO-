@@ -12,7 +12,8 @@ const Ul= styled.ul`
     display:flex;
     flex-flow:row nowrap;
 
-.Navli {
+.Navli { 
+    background: none;
     color:#fff;
     opacity: 0.5;
     text-align: center;
@@ -24,19 +25,20 @@ li.Navl{
     background: none;
 }
 a{
-   color:#fff;
-   background: none;;
+   color:white;
+   background: none;
    text-decoration: none;
-   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Inconsolata', monospace;
    padding-left: 1rem;
-   font-size: 20px;
+   font-size: 22px;
    text-transform: uppercase;
    transition: background 0.3s ease 0s;
+   text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
 }
 
 a:hover{
         text-shadow: rgb(255 255 255 / 75%) 0px 0px 5px;
-        color: 		rgb(0, 0, 128) !important;
+        color: rgb(255, 255, 255) !important;
         transition: background 0.3s ease 0s;
 }
 

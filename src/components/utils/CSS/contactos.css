@@ -64,7 +64,7 @@ clear: both;
 
 /*ESTILOS DEL FORMULARIO*/
  .container{
-    height: 80%;
+    height: auto;
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #c894f8;
@@ -228,8 +228,7 @@ color: #354355;
     background-color: #c894f8;
     border-radius: 20px;
     box-shadow: -40px 0 0 0px #050404, -50px 0 0 0px #F5F5EB;
-    flex-basis: 45%;
-    overflow: hidden;
+    flex-basis: 45%;;
     padding: 2rem 0.625rem 4rem;
     margin: 15 3rem 0 2rem;
  }

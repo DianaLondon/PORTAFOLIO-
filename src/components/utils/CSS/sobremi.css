@@ -247,8 +247,9 @@ transform: scale(1);
     
     .quien img{
         justify-content: center;
-        width: 750px;
-        border-radius: 350px;
+        width: 41%;
+        height: 50%;
+        border-radius: 5px;
     }
 
     .quien{
@@ -256,9 +257,8 @@ transform: scale(1);
     }
 
     #yo{
-        margin-left: 15px;
         margin-top: 59px;
-        height: 210px;
+        height: 45%;
         border-radius: 500px;
     }
 
@@ -279,17 +279,17 @@ transform: scale(1);
 
     .titu_sobre{
         font-family: 'IBM Plex Mono', monospace;
-        margin-left: 299px;
+        margin-left: 45%;
         display: inline-block;
         position: relative;
         padding-top: 15px;
         color:#fff;
-        font-size: 25px;
+        font-size: 28px;
     }
     
        
     .parrafoInicial{
-        width: 295px;
+        width: 90%;
         font-size: 15px;
         text-align: justify;
         color: rgb(255, 255, 255);
@@ -297,16 +297,16 @@ transform: scale(1);
     }
     
     .icons img{
-        margin-left: 9%;
+        margin-left: 0%;
         margin-top: 0.1%;
         width:35px;
     }
 
     .icons{
+        margin-top: 10%;
         flex-direction: column;
         display: flex;
         list-style: none;
-        margin-right: 150px;
     }
 
     #habilidades {
@@ -324,6 +324,17 @@ transform: scale(1);
     }
 
     
+.icons li a{
+  padding: 1%;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+} 
+
+
+    
 }
 
 /*FIN DEL RESPONSIVE*/
+

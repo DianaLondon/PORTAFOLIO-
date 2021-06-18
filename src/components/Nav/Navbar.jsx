@@ -35,10 +35,10 @@ const Nav = styled.nav`
     .logo{
         background: none;
         padding: 9px 0;
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Inconsolata', monospace;
         font-size: 35px;
         text-transform: uppercase;
-        color: rgb(241, 241, 241);
+        color: #fff;
         text-shadow: rgb(159 103 233 / 75%) 0px 0px 15px, rgb(1 15 140) 0px 0px 10px;
         transition: all 0.3s ease 0s;
 

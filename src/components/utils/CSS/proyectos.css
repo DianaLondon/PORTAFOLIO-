@@ -50,14 +50,16 @@ h1{
 }
 
 .galeria li{
+    display: flex;
     margin: 5px;
 }
 
 .galeria img{
+    display: flex;
     margin-top: 55px;
     margin-left: 15px;
-    width: 300px;
-    height: 40%;
+    width: 250px;
+    height: 75px;
 }
 
 
@@ -84,8 +86,8 @@ h1{
 .galeria2 img{
     margin-top: 55px;
     margin-left: 15px;
-    width: 300px;
-    height: 40%;
+    width: 250px;
+    height: 75px;
 }
 
 
@@ -211,10 +213,11 @@ margin-top: 100px;
 
 
 /*RESPONSIVE DE LA PAGINA DE PROYECTOS DESDE LOS 768px hasta 1024px*/
-@media only screen and (min-width:768px) and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1400px){
     .galeria{
+        height: auto;
         margin-bottom: 55px;
-        width: 32%;
+        width: 30%;
         margin-top:50px;
         list-style: none;
         box-sizing: border-box;
@@ -230,12 +233,13 @@ margin-top: 100px;
     .galeria img{
         margin-top: 15px;
         margin-left: 15%;
-        width: 68%;
+        width: 150px;
         height: 95px;
     }
 
     /*ESTILOS DE LA GALERIA 2*/
 .galeria2{
+    height: auto;
     margin-left: 25px;
     margin-bottom: 55px;
     background-color: rgb(29, 90, 92);
@@ -256,7 +260,7 @@ margin-top: 100px;
     align-items: center;
     margin-top: 15px;
     margin-left: 15%;
-    width: 68%;
+    width: 150px;
     height: 95px;
 }
 

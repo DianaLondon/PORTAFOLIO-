@@ -15,7 +15,8 @@ Acá encontraras un proyecto realizado con las siguientes tecnologías:
 * JS
 * REACT
 * GIT HUB
-* BOOSTRAP 
+
+
 
  
 
